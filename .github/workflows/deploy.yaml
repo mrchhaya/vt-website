@@ -34,7 +34,7 @@ jobs:
         with:
           sparse-checkout: site
       - name: LS
-        run: ls
+        run: pwd
 
       - name: Detect package manager
         id: detect-package-manager
